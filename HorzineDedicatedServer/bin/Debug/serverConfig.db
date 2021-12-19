@@ -1,0 +1,25 @@
+[SERVER]
+Server name - your server name
+password - your server password
+
+Admin name - admin login name
+password - admin login password
+
+Tittle - your server banner title
+Message - your server banner message (you can change text colour)
+Site link - redirect players to your link
+Banner link - your server image (must be an HTTP link)
+
+server takover - Server Takeover is a feature that allows players who are matchmaking and choosing to start their own private game to "grab" a server that has not opted out for them to use during their play time. This will change the settings on the server to those that the players want and make it private. However it will not expose any of the private information about that server (such as admin passwords) to them. At the end of their stay in the server, the server will open back up again and await new players or another takeover request.
+
+Team collision -  enable/disable in game team collision
+
+Can pause - when enable, Admin can pause the game by using the pause command
+
+
+[open this ports after opening your server]
+Game Port - 7777 - UDP -  This is the main port the game will send connections over
+Query Port - 27015 - UDP -  This port is used to communicate with the Steam Master Server
+Web Admin -  8080 - TCP  - This port is used to connect to your servers web admin page (if turned on)
+Steam Port   - 20560 - UDP
+NTP Port - 123 - UDP  - Weekly Outbreak Only - Internet time lookup to determine correct Outbreak

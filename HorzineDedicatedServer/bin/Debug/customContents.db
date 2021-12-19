@@ -1,0 +1,13 @@
+[HOW TO DOWNLOAD CUSTOM MAPS]
+
+In order to dowload maps, you need the map URL. Go to "Custom Maps" and paste the URL in the "Map Link" field, after that just click in "ADD MAP" button. Then your map gonna appear in the "Not Active" box, to add your map in the map cycle in your server, just select your map in the "Not Active" box and click on 'ADD" button.
+
+
+[HOW TO DOWNLOAD MUTATORS]
+
+In order to download mutators, you gonna need the mutator URL and the mutator starting code. Go to "Mutators" and paste the mutators link in the "Mutator link" field, after that you need to acess the mutator URL and find the mutator starting code in the mutator description.
+
+ Usually you gonna find something like " server: Mutator=mutatorsname.kfgame" or for gamemodes "server: Game=gamemodename.kfgame_gamelenght" might have differences deppending on the mutator. You might find in some cases an "?" before the mutator code, like this "?Mutator=mutatorsname.kfgame" dont add this interrogation signal before the mutator code.
+
+After getting the mutator code, just go to "Mutators" and paste in "Mutator Code" field and click in the "ADD MUTATOR" button.
+Then your mutator gonna appear in the "Not Active" box, to add your mutator in your server, just select your it the "Not Active" box and click on 'ADD" button.

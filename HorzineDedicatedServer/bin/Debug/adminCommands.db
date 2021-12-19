@@ -1,0 +1,118 @@
+Admin Commands
+
+adminlogin password - Logs you in as admin using password
+adminlogout - Logs out admin mod
+admin adminsay message - Displays message in the middle of each player's screen
+admin map KF-mapname.rom - Changes current map to KF-mapname.rom
+admin Switch KF-mapname.rom - Changes current map to KF-mapname.rom
+pause - Pauses the game (needs to be set to enable)
+admin Kick - remove a user from the game. A user can either be their ID (as shown by kick list)
+admin KickBan - Ban a user from the game. A user can either be their ID (as shown by kick list)
+admin RestartMap - Restart Current Map.
+admin NextMap - Go to NextMap.
+admin PlayerList - Write player list save to KillingFloor.log
+
+
+
+Core Commands
+
+Open <Map Name> - You can also load gamemodes and change difficulties just by typing this kf-burningparis?Game=KFGameContent.KFGameinfo_Survival
+Open <IP> - Will connect to the <IP> given. You can provide a password. eg: open 127.0.0.1?password=123
+Disconnect - Leaves the current session (good if you are stuck on a screen)
+Reconnect - Rejoins the current session you are in
+Suicide - Causes your player to die
+RestartLevel - Restarts the Level
+ToggleScreenshotMode - Toggles Weapons/Hands and HUD on and off.
+ToggleHUD - Toggles HUD
+
+
+
+Cheat Commands
+
+Note:
+- You must use the 'enablecheats' command before any of these can be activated
+- Cheats will disable achievments and level up perks
+- [INT] = interger number
+
+EnableCheats - Will open up the majority of commands for you to use
+Allammo - 999 ammo for every weapon
+ArmorMe [INT] - Gives [INT] Armor
+Assault - Gives Rifle Weapons
+AllWeapons - Gives all weapons
+ChangeSize [INT] - 0 to 5, Scale the player's size to be x default size
+DemiGod - Survive on 1HP
+DoshMe [INT] - Gives money x amount
+DramaEvent <CHANCE> <LENGTH> Chance to toggle Zed Time with colour grading
+Flame - Gives Flame Weapons 0-None 1-MaxAmmo
+Fly - Sets fly mode
+Admin SetFriendlyFireScale [INT] - Sets friendly fire scale for the server. Will keep server ranked
+Ghost - Noclip mode
+God - God mode
+HealMe [INT] - Heals the player
+Imrich - Loads of Money
+Killbots - Kills spawned bots
+Killzeds - Kill all zeds
+KillViewedActor - use it to kill the bot Viewed
+Loaded - Gives 999 ammo for every weapon
+Melee - Gives melee weapons 0-None 1-MaxAmmo
+Medic - Gives Medic Weapons
+Nails - You've got NailGun!
+OpenTrader - Allows trading
+OpenTraderNext - Closes current trader and opens next
+OpenTraderMenu - Opens trader menu
+Pistols - Gives all pistol weapons
+Playersonly - Freezes everything except players
+PowerUpHellishRage - Apply effects of Hellish Powerup on player
+Rifle - Gives rifle weapons
+SMG - Gives SMG Weapons
+SetFlash - flash screen
+Setgravity [INT] - Lets you modify the gravity of the current game (-950 = normal gravity).
+Setjump [INT] - Lets you modify the jump height of the current game.
+Shotty - Gives all shotguns
+Show Paths - show apple paths of the zeds -UnCheats
+Slomo [INT] - Lets you modify the game speed of the current game (1 = normal speed).
+SpawnHumanPawn [INT] - 0/1 Adds a bot (does nothing
+SpawnZedLods [ZED] - Spawn a bunch of [ZED]
+SpawnZED [ZED] - Spawn single [ZED]
+SpawnAI [ZED] - Spawn [ZED] which isn't braindead
+Summon - Summon string ClassName (like Summon kfchar.zombieclot)
+ShowDebug - can see the path and a lot of word
+Teleport - Allows You to teleport to the surface (or wall) at your crosshair.
+ViewPlayer name	- View From Players.
+ViewSelf - View From Own Camera.
+Viewed - View From Random Zombies.
+Walk - Disables flying and/or noclip mode
+WinMatch - Win!
+
+
+
+Useful SDK Commands
+
+ToggleSpawning - Allows you to test the game in PiE.
+EndCurrentWave - Will complete the current wave and move to trader
+SetWave <WaveNumber> - Sets the wave to the specified number
+Chris - Gives God, Loaded, UberAmmo, ToggleSpawning
+ToggleSplatterGun - Toggles the ability to spray splats on the map. Make sure to disable before exiting SDK.
+ClearSplatters - Clears all splats off the map
+ClearCorpses - Clears all corpses off the map
+DisableAllScreenMessages - Turns off errors in PiE
+HideTraderPath - Turns off Trader Path
+ShowTraderPath - Turns on Trader Path
+TestPortalNearby <ZedName> <NumSpawns> - Forces a spawn from the closest portal spawn
+TestPortalAll <ZedName> - Forces a spawn from all portals
+TestPortalActive <ZedName> - Forces a spawn for active portals
+TestSpawnVolume <SpawnAmount> - Forces the closest spawn volume to spawn Active Zeds
+
+SetSpawnVolumeDebug <bSpawnDebug> <bDebugRating> <bDebugVisibility> - Enables SpawnVolume debug values.
+eg: just use - setspawnvolumedebug true true true
+
+SpawnTest <SpawnAmount> <bSimSpawn> <bSpawnZeds> - Well do a test Spawn based on current user position and volume values. Use in conjuntion with the above command
+eg: spawntest 4 true false - will test the spawns but not spawn anything
+
+ShowPrecomputedVisibility - Will show the Precomputed Visibility cells if PCV have been built
+ToggleOcclusion - Toggles the Dynamic Occlusion System
+TogglePrecomputedVisibility - Toggles Precomputed Visibility
+
+
+
+Debug Commands

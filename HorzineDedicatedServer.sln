@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorzineDedicatedServer", "HorzineDedicatedServer\HorzineDedicatedServer.csproj", "{B98CDF95-C509-4C12-AB05-0266DCF0B249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98CDF95-C509-4C12-AB05-0266DCF0B249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98CDF95-C509-4C12-AB05-0266DCF0B249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98CDF95-C509-4C12-AB05-0266DCF0B249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98CDF95-C509-4C12-AB05-0266DCF0B249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D3C7D75-E5AE-450F-9CFE-9298FD8D47AE}
+	EndGlobalSection
+EndGlobal

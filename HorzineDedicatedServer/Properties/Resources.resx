@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KF_server_interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_server_interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_Mutators_interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_Mutators_interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_difficulty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_difficulty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSoundMuted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconSoundMuted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAdvancedMoseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconAdvancedMoseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kfLenghtMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kfLenghtMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_custom_maps_interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_custom_maps_interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewBurningParis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewBurningParis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kf_horzine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kf_horzine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonServerMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonServerMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewNetherhold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewNetherhold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonMutators" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonMutators.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewPowerCore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewPowerCore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serverTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serverTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewAirship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewAirship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="launchServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\launchServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewSteamFortress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewSteamFortress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbEnable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbEnable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewCatacombs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewCatacombs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_Lenght" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_Lenght.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewAshwoodAsylum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewAshwoodAsylum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonServer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonServer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewBlackForest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewBlackForest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewVolterManor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewVolterManor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transparencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transparencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previewMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previewMap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colorsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colorsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_gamemode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_gamemode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serverNameMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serverNameMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgCreditoMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgCreditoMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewTheTragicKingdom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewTheTragicKingdom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconConected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconConected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCustomMapsSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCustomMapsSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Insomnia_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Insomnia_1.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonMutatorsMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonMutatorsMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_remove_movemouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_remove_movemouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kfLenghtLocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kfLenghtLocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="launchServerMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\launchServerMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewBioticsLab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewBioticsLab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewSantasWorkshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewSantasWorkshop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewSpillway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewSpillway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSoundMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconSoundMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewTheDescent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewTheDescent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewBiolapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewBiolapse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewDieSector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewDieSector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgCreditos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgCreditos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewMoonbase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewMoonbase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webAdminMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webAdminMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewFarmhouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewFarmhouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewLockdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewLockdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonSeverSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonSeverSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewZEDLanding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewZEDLanding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewNuked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewNuked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconNotConected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconNotConected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewKrampusLair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewKrampusLair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLenghtEnable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgLenghtEnable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCustomMaps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCustomMaps.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewEvacuationPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewEvacuationPoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewDystopia2029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewDystopia2029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbDisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rbDisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webAdmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonHelpMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonHelpMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewShoppingSpree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewShoppingSpree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewContainmentStation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewContainmentStation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serverTitleMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serverTitleMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewSanitarium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewSanitarium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewDesolation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewDesolation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewInfernalRealm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewInfernalRealm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewOutpost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewOutpost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgLenghtDisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgLenghtDisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewNightmare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewNightmare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewHellmarkStation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewHellmarkStation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serverName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serverName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="launchSerMouseMove2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\launchSerMouseMove2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewPrison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewPrison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCustomMapsMouseMove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCustomMapsMouseMove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewElysium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewElysium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonHelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonHelp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconSound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serverEnableDisable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serverEnableDisable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonHelpSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonHelpSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAdvanced" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconAdvanced.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewMonsterBall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewMonsterBall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapPreviewHostileGrounds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapPreviewHostileGrounds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonMutatorsSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonMutatorsSelected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_button_mousemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_button_mousemove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_button_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_button_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_help_interface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_help_interface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mouse_click_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mouse_click_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KF_help_interface_adminCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_help_interface_adminCommands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_help_interface_customContents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_help_interface_customContents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KF_help_interface_serverConfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KF_help_interface_serverConfig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

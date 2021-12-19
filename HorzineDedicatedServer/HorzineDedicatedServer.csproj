@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B98CDF95-C509-4C12-AB05-0266DCF0B249}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HorzineDedicatedServer</RootNamespace>
+    <AssemblyName>HorzineDedicatedServer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomMaps.Designer.cs">
+      <DependentUpon>frmCustomMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMutators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMutators.Designer.cs">
+      <DependentUpon>frmMutators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServer.Designer.cs">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomMaps.resx">
+      <DependentUpon>frmCustomMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMutators.resx">
+      <DependentUpon>frmMutators.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServer.resx">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\adminCommands.db" />
+    <None Include="bin\Debug\customContents.db" />
+    <None Include="bin\Debug\serverConfig.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Insomnia_1.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\launchServer.PNG" />
+    <None Include="Resources\launchSerMouseMove2.PNG" />
+    <None Include="Resources\kfLenghtMouseMove.PNG" />
+    <None Include="Resources\kfLenghtLocked.PNG" />
+    <None Include="Resources\KF_server_interface.PNG" />
+    <None Include="Resources\KF_Mutators_interface.PNG" />
+    <None Include="Resources\KF_map.PNG" />
+    <None Include="Resources\KF_Lenght.PNG" />
+    <None Include="Resources\kf_horzine.PNG" />
+    <None Include="Resources\KF_help_interface_serverConfig.PNG" />
+    <None Include="Resources\KF_help_interface_customContents.PNG" />
+    <None Include="Resources\KF_help_interface_adminCommands.PNG" />
+    <None Include="Resources\KF_help_interface.PNG" />
+    <None Include="Resources\KF_gamemode.PNG" />
+    <None Include="Resources\KF_difficulty.PNG" />
+    <None Include="Resources\KF_custom_maps_interface.PNG" />
+    <None Include="Resources\imgLenghtEnable.PNG" />
+    <None Include="Resources\imgLenghtDisable.PNG" />
+    <None Include="Resources\imgCreditos.PNG" />
+    <None Include="Resources\imgCreditoMouseMove.PNG" />
+    <None Include="Resources\iconSoundMuted.PNG" />
+    <None Include="Resources\iconSoundMouseMove.PNG" />
+    <None Include="Resources\iconSound.PNG" />
+    <None Include="Resources\iconNotConected.PNG" />
+    <None Include="Resources\iconConected.PNG" />
+    <None Include="Resources\iconAdvancedMoseMove.PNG" />
+    <None Include="Resources\iconAdvanced.PNG" />
+    <None Include="Resources\help_button_selected.PNG" />
+    <None Include="Resources\help_button_mousemove.PNG" />
+    <None Include="Resources\colorsIcon.PNG" />
+    <None Include="Resources\buttonSeverSelected.PNG" />
+    <None Include="Resources\buttonServerMouseMove.PNG" />
+    <None Include="Resources\buttonServer.PNG" />
+    <None Include="Resources\buttonMutatorsSelected.PNG" />
+    <None Include="Resources\buttonMutatorsMouseMove.PNG" />
+    <None Include="Resources\buttonMutators.PNG" />
+    <None Include="Resources\buttonHelpSelected.PNG" />
+    <None Include="Resources\buttonHelpMouseMove.PNG" />
+    <None Include="Resources\buttonHelp.PNG" />
+    <None Include="Resources\buttonCustomMapsSelected.PNG" />
+    <None Include="Resources\buttonCustomMapsMouseMove.PNG" />
+    <None Include="Resources\buttonCustomMaps.PNG" />
+    <None Include="Resources\add_remove_movemouse.PNG" />
+    <None Include="Resources\add_remove.PNG" />
+    <None Include="Resources\webAdminMouseMove.PNG" />
+    <None Include="Resources\webAdmin.PNG" />
+    <None Include="Resources\transparencia.PNG" />
+    <None Include="Resources\serverTitleMouseMove.PNG" />
+    <None Include="Resources\serverTitle.PNG" />
+    <None Include="Resources\serverNameMouseMove.PNG" />
+    <None Include="Resources\serverName.PNG" />
+    <None Include="Resources\serverEnableDisable.PNG" />
+    <None Include="Resources\rbEnable.PNG" />
+    <None Include="Resources\rbDisable.PNG" />
+    <None Include="Resources\previewMap.PNG" />
+    <None Include="Resources\loading.PNG" />
+    <None Include="Resources\launchServerMouseMove.PNG" />
+    <None Include="Resources\MouseMove_2.wav" />
+    <None Include="Resources\Mouse_click_1.wav" />
+    <None Include="Resources\KF_help_interface_advancedOptions.png" />
+    <None Include="Resources\mapPreviewZEDLanding.png" />
+    <None Include="Resources\mapPreviewVolterManor.png" />
+    <None Include="Resources\mapPreviewTheTragicKingdom.png" />
+    <None Include="Resources\mapPreviewTheDescent.png" />
+    <None Include="Resources\mapPreviewSteamFortress.png" />
+    <None Include="Resources\mapPreviewSpillway.png" />
+    <None Include="Resources\mapPreviewShoppingSpree.png" />
+    <None Include="Resources\mapPreviewSantasWorkshop.png" />
+    <None Include="Resources\mapPreviewSanitarium.png" />
+    <None Include="Resources\mapPreviewPrison.png" />
+    <None Include="Resources\mapPreviewPowerCore.png" />
+    <None Include="Resources\mapPreviewOutpost.png" />
+    <None Include="Resources\mapPreviewNuked.png" />
+    <None Include="Resources\mapPreviewNightmare.png" />
+    <None Include="Resources\mapPreviewNetherhold.png" />
+    <None Include="Resources\mapPreviewMoonbase.png" />
+    <None Include="Resources\mapPreviewMonsterBall.png" />
+    <None Include="Resources\mapPreviewLockdown.png" />
+    <None Include="Resources\mapPreviewKrampusLair.png" />
+    <None Include="Resources\mapPreviewInfernalRealm.png" />
+    <None Include="Resources\mapPreviewHostileGrounds.png" />
+    <None Include="Resources\mapPreviewHellmarkStation.png" />
+    <None Include="Resources\mapPreviewFarmhouse.png" />
+    <None Include="Resources\mapPreviewEvacuationPoint.png" />
+    <None Include="Resources\mapPreviewElysium.png" />
+    <None Include="Resources\mapPreviewDystopia2029.png" />
+    <None Include="Resources\mapPreviewDieSector.png" />
+    <None Include="Resources\mapPreviewDesolation.png" />
+    <None Include="Resources\mapPreviewContainmentStation.png" />
+    <None Include="Resources\mapPreviewCatacombs.png" />
+    <None Include="Resources\mapPreviewBurningParis.png" />
+    <None Include="Resources\mapPreviewBlackForest.png" />
+    <None Include="Resources\mapPreviewBioticsLab.png" />
+    <None Include="Resources\mapPreviewBiolapse.png" />
+    <None Include="Resources\mapPreviewAshwoodAsylum.png" />
+    <None Include="Resources\mapPreviewAirship.png" />
+    <None Include="Resources\mapPreview.png" />
+    <None Include="Resources\kfLenght.png" />
+    <None Include="Resources\KF_BaseBG.png" />
+    <None Include="Resources\serverFundo4.png" />
+    <None Include="Resources\serverFundo3.png" />
+    <None Include="Resources\serverFundo2.png" />
+    <None Include="Resources\serverFundo1.png" />
+    <None Include="Resources\serverFundo0.png" />
+    <None Include="Resources\imgFundo0.png" />
+    <None Include="Resources\KF_server_BG.png" />
+    <None Include="Resources\imgFundo3.png" />
+    <None Include="Resources\imgFundo2.png" />
+    <None Include="Resources\imgFundo1.png" />
+    <None Include="Resources\imgFundo4.png" />
+    <None Include="Resources\fundo.png" />
+    <None Include="Resources\menuButtonMouseMove.png" />
+    <None Include="Resources\menuButton.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
