@@ -4,8 +4,11 @@ GUI for Killing Floor 2 Server - Forms
 1: Open the following ports on your modem.
 
 UDP 7777 Server Port
+
 UDP 27015 Master Server Port
+
 TCP 8080 Web Admin
+
 UDP 20560 Steam Port
 
 2: Download the server
