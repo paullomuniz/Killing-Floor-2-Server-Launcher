@@ -13,7 +13,7 @@ UDP 20560 Steam Port
 
 2: Download the server
 
-http://frenetico.net/HorzineDedicatedServer.zip
+https://www.mediafire.com/file/pkz6md7xyvdy0g7/HorzineDedicatedServer.zip/file
 
 3: Extract the files to Disk C:\ and Install dependencies and server. 
 
